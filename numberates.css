@@ -1,0 +1,156 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    }
+    .container, #container {
+
+    display: flex;
+    color:gainsboro;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background : linear-gradient(120deg,rgb(74, 172, 238),rgb(29, 237, 123));
+    background-repeat:no-repeat;
+    height: 100vh;
+    }
+
+    .attemptIndicator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    margin-right: 100px;
+    margin-top: 100px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    }
+    .circle {
+    margin-top: 10px;
+    margin-right: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #71e3ce;
+    background: -webkit-linear-gradient(to right, #1F1C18, #52e0fa);
+    background: linear-gradient(to right, #1F1C18, #07d2cb);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    }
+    .mainSection {
+    width: 50%;
+    margin: auto;
+    border-radius: 5%;
+    text-align: center;
+    }
+    .heading {
+    color: rgb(20, 23, 25);
+    
+    text-align:center ;
+    margin-bottom: -50px;
+    text-transform: uppercase;
+    }
+    .gameSection {
+    background-color: #1F1C18;
+    background-size: cover;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 7px 4px 10px rgb(95, 95, 95);
+    }
+    .gameSectionHeading {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color:aliceblue;
+    }
+    .label {
+    font-weight: bold;
+    color:white;
+    }
+    input {
+    background: #0372c7;
+    background: -webkit-linear-gradient(to right, #1fafd3, #1270b8);
+    background: linear-gradient(to right, #318397, #1270b8);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: whitesmoke;
+    padding: 5px;
+    text-align: center;
+    }
+    .submitBtn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    background-color: rgb(0, 255, 200);
+    color: whitesmoke;
+    }
+    #message {
+    display: block;
+    
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    color:rgb(55, 178, 226);
+    }
+    #number{
+    background-color: #1fafd3;
+    }
+    .emoji {
+    font-size: 50px;
+    }
+    h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    }
+    @media only screen and (min-device-width : 768px) {
+    .attemptIndicator {
+    font-size: 30px;
+    }
+    .circle {
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    line-height: 95px;
+    margin-right: 100px;
+    }
+    .heading {
+    font-size: 36px;
+    }
+    .gameSection {
+    font-size: 18px;
+    padding: 100px;
+    }
+    .gameSectionHeading {
+    font-size: 30px;
+    margin-bottom: 50px;
+    }
+    .label {
+    font-size: 20px;
+    
+    }
+    input {
+    font-size: 24px;
+    }
+    .btn {
+    margin-top: 20px;
+    }
+    .submitBtn {
+    font-size: 24px;
+    border-radius: 10px;
+    }
+    #message {
+    font-size: 28px;
+    }
+    .emoji {
+    font-size: 100px;
+    }
+    h3 {
+    font-size: 36px;
+    }
+    }
